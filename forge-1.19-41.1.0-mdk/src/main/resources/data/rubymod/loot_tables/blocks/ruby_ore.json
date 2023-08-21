@@ -24,11 +24,20 @@
                   }
                 }
               ],
-              "name": "minecraft:diamond_ore"
+              "name": "rubymod:ruby_ore"
             },
             {
               "type": "minecraft:item",
               "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                },
                 {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops",
@@ -38,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:diamond"
+              "name": "rubymod:ruby"
             }
           ]
         }

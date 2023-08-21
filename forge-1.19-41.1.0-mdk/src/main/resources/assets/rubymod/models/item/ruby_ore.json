@@ -1,0 +1,6 @@
+{
+  "parent": "rubymod:block/ruby_ore",
+  "textures": {
+    "layer0": "rubymod:block/ruby_ore"
+  }
+}

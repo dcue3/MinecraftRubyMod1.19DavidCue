@@ -1,0 +1,6 @@
+{
+  "parent": "rubymod:block/ruby_block",
+  "textures": {
+    "layer0": "rubymod:block/ruby_block"
+  }
+}
